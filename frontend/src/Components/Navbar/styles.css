@@ -5,14 +5,14 @@ header{
     align-items: center;
 }
 
-.dsmovie-nav-Content{
+.dsmovie-nav-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #fff;
     
 }
-.dsmovie-nav-Content h1{
+.dsmovie-nav-content h1{
 margin: 0cm;
 font-weight: 700;
 font-size: 24px;
