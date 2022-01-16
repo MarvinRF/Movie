@@ -22,14 +22,10 @@ font-size: 24px;
     display: flex;
     align-items: center;
     color: #fff;
-    
-    
-
 }
 
 .dsmovie-contact-link{
-font-size: 12px;
+font-size: .85rem;
 margin: 0 0 0 10px;
-
 
 }
