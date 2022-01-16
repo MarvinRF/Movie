@@ -10,7 +10,7 @@ import { BASE_URL } from "utils/requests";
 
 function Listing() {
 
-    const [pageNumber, setPagenumber] = useState(0);
+    const [pageNumber, setPageNumber] = useState(0);
 
     const [page, setPage] = useState<MoviePage>({
         content: [],
@@ -34,11 +34,15 @@ function Listing() {
             });
     }, [pageNumber]);
 
+    const HandlePageChange =(newPageNumber : number)=>{
+        setPageNumber(newPageNumber);
+    }
+
 
     return (
         <>
 
-            <Pagination />
+            <Pagination page={page} onChange={HandlePageChange} />
 
             <div className="Container">
                 <div className="row">
